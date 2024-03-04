@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:text="chet el valyutasi nomi"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:hint="Chet el valyutasini kiriting"
+        android:id="@+id/edt_chetel"
+        android:layout_margin="5dp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:hint="O'zbek somini kiritng"
+        android:id="@+id/edt_uzb_som"
+        android:layout_margin="5dp"
+        android:inputType="number"
+        />
+
+
+</LinearLayout>
